@@ -1,40 +1,28 @@
-**TranslateSkill (Mycroft new API)**
+**TranslateSkill (google-translate-skill)**
 ===================
 
-For Mycroft with new API (https://home.mycroft.ai)
 An skill to use with Mycroft which allow to translate phrases into other languages
 New languages added: polish, danish, hungarian, swedish, norwegian
 
 ----------
 
 
-Installation
+Install Using MSM (Mycroft Skill Manager)  not for Mark1
 -------------------
 
-
-Inside mycroft virtual environment
-
-    workon mycroft
-
-    pip install mtranslate 
-    pip install unidecode 
-	
+    msm install https://github.com/jcasoft/TranslateSkill.git
 
 
-Now go to Mycroft third party skill directory
+Installation Manual
+-------------------
 
-    cd  $HOME/.mycroft/skills
+    cd  /opt/mycroft/skills
+    git clone https://github.com/jcasoft/TranslateSkill.git
+    cd TranslateSkill
+    workon mycroft (Only if you have installed Mycroft on Virtualenv)
+    pip install -r requirements.txt
 
-    git clone  https://github.com/jcasoft/TranslateSkill.git
 
-
-
-
-Restart Skills
-
-    ./start.sh skills
-
-----------
 
 
 Features

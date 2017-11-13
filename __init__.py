@@ -69,9 +69,7 @@ class TranslateSkill(MycroftSkill):
 
 
     def say(self,sentence,lang):
-	# sentence = unicode(sentence, "utf-8")
 	sentence = unicodedata.normalize('NFKD',sentence).encode('ascii','ignore')
-	print("TRANSLATED PHRASE:",sentence )
 	get_sentence = 'wget -q -U Mozilla -O /tmp/translated.mp3 "https://translate.google.com/translate_tts?tl=' + lang + '&q='+ sentence +'&client=tw-ob'+'"'
 	os.system(get_sentence)
 	play_mp3("/tmp/translated.mp3")
