@@ -1,4 +1,4 @@
 lxml 
 mtranslate 
 unidecode
-unicodedata
+unicodedata2
