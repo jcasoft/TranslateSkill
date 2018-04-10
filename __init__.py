@@ -54,6 +54,7 @@ class TranslateSkill(MycroftSkill):
 	lang = message.data.get("LanguageKeyword")
 	sentence = message.data.get("phrase")
 
+	sentence = unicodedata.normalize('NFKD',sentence).encode('ascii','ignore')
 	translated = translate(sentence, lang)
 
 	self.say(translated,lang)
@@ -63,6 +64,7 @@ class TranslateSkill(MycroftSkill):
 	sentence = message.data.get("translate")
 	to = message.data.get("ToKeyword")
 
+	sentence = unicodedata.normalize('NFKD',sentence).encode('ascii','ignore')
 	translated = translate(sentence, lang)
 
 	self.say(translated,lang)

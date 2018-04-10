@@ -10,5 +10,7 @@ found_exe() {
 # polkit uses pkcon instead of apt-get; pkcon will then run apt-get
 if found_exe pkcon; then
     pkcon install libxml2-dev libxslt1-dev -y > /dev/null
+else
+    sudo apt install packagekit-tools
 fi
 exit 0 # Will fail if package already is on latest version
