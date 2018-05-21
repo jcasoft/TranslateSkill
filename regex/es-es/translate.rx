@@ -1,0 +1,3 @@
+(traducir|traduzca|traduce|como se dice|di|diga|decir|repetir) (?P<Translate>.*) (al|en) (ingles|italiano|frances|holandes|aleman|polaco|portugues|danes|sueco|noruego|hungaro)
+(traducir|traduzca|traduce|como se dice|di|diga|decir|repetir) (?P<Translate>.*) (al|en) (inglés|italiano|francés|holandés|alemán|polaco|portugues|danés|sueco|noruego|hungaro)
+

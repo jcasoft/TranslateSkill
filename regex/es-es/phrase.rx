@@ -1,0 +1,2 @@
+(a|en|al) (ingles|italiano|frances|holandes|aleman|polaco|portugues|danes|sueco|noruego|hungaro|catalan|rumano|eslovaco|chino|japonse) (?P<Phrase>.*)
+(a|en|al) (inglés|italiano|francés|holandés|alemán|polaco|portugues|danés|sueco|noruego|hungaro|catalán|rumano|eslovaco|chino|japonés) (?P<Phrase>.*)
