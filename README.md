@@ -1,36 +1,27 @@
 **TranslateSkill**
 ===================
 
-<<<<<<< HEAD
 An skill to use with Mycroft (up to 18.2.5 with Python 2.7) which allow to translate phrases into other languages
 Languages supported: 
 English, spanish, italian, french, dutch, german, portuguese, polish, danish, hungarian, swedish, norwegian
-=======
-Aallow to translate phrases into other languages
->>>>>>> c58739da56b398d297dd79aa22d241d23e8d3bb9
 
 ----------
 
 
-Install Using MSM (Mycroft Skill Manager) 
+Install Using MSM (Mycroft Skill Manager)  not for Mark1
 -------------------
 
-    msm install https://github.com/jcasoft/translate-skill.jcasoft.git
+    msm install https://github.com/jcasoft/TranslateSkill.git
 
 
 Installation Manual
 -------------------
 
     cd  /opt/mycroft/skills
-    git clone https://github.com/jcasoft/translate-skill.jcasoft.git
-    cd translate-skill.jcasoft
-
-    On Ubuntu with Dev branch
-    ~/mycroft-core/.venv/bin/pip install -r /opt/mycroft/skills/translate-skill.jcasoft/requirements.txt
-
-    On Mark1 or PiCroft
-    sudo /opt/venvs/mycroft-core/bin/pip install -r /opt/mycroft/skills/translate-skill.jcasoft/requirements.txt
-
+    git clone https://github.com/jcasoft/TranslateSkill.git
+    cd TranslateSkill
+    workon mycroft (Only if you have installed Mycroft on Virtualenv)
+    pip install -r requirements.txt
 
 
 
@@ -54,16 +45,11 @@ Currently this skill can do the following things (with some variation):
 - translate good morning my dear friends and happy new year to hungarian
 - translate good morning my dear friends and happy new year to swedish
 - translate good morning my dear friends and happy new year to norwegian
-- translate good morning my dear friends and happy new year to catalan
-- translate good morning my dear friends and happy new year to romanian
-- translate good morning my dear friends and happy new year to slovak
-- translate good morning my dear friends and happy new year to chinese
-- translate good morning my dear friends and happy new year to japanese
 
 > **Note:**
 
 > - You can toggle language key word with:
-> - spanish, italian, french, dutch, german, portuguese, polish, danish, hungarian, swedish, norwegian, catalan (no good voice quaility), romanian, slovak, chinese (in test mode), japanese (in test mode)
+> - spanish, italian, french, dutch, german, portuguese, polish, danish, hungarian, swedish, norwegian
 
 
 
