@@ -1,7 +1,13 @@
-**TranslateSkill (google-translate-skill)**
+**TranslateSkill**
 ===================
 
+<<<<<<< HEAD
+An skill to use with Mycroft (up to 18.2.5 with Python 2.7) which allow to translate phrases into other languages
+Languages supported: 
+English, spanish, italian, french, dutch, german, portuguese, polish, danish, hungarian, swedish, norwegian
+=======
 Aallow to translate phrases into other languages
+>>>>>>> c58739da56b398d297dd79aa22d241d23e8d3bb9
 
 ----------
 
